@@ -59,3 +59,9 @@ service { 'mysql':
   ensure  => running,
   require => Package['mysql-server'],
 }
+
+exec { 'create database':
+  command => '/usr/bin/mysqladmin create oscommerce -u root',
+  creates => '/var/lib/mysql/oscommerce',
+  require => Package['mysql-server'],
+}

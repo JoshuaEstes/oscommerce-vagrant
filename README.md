@@ -17,3 +17,11 @@ vagrant up
 ```
 
 Navigate to http://127.0.0.1:8080/ and follow the install instructions.
+
+Settings
+========
+
+Database Server | 127.0.0.1
+Username | root
+Password | 
+Database Name | oscommerce
