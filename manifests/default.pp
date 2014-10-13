@@ -25,7 +25,6 @@ package { $extraPackages:
 $notifyApache2Packages = [
   'libapache2-mod-php5',
   'php5-mysql',
-  'php5-openssl',
   'php5-gmp',
   'php5-mcrypt',
   'php5-curl',
@@ -43,8 +42,8 @@ service { 'apache2':
 }
 $vhost = "
 <VirtualHost *:80>
-  DocumentRoot /var/www/oscommerce/web
-  <Directory /var/www/oscommerce/web>
+  DocumentRoot /var/www/oscommerce/web/catalog
+  <Directory /var/www/oscommerce/web/catalog>
     AllowOverride All
   </Directory>
 </VirtualHost>
