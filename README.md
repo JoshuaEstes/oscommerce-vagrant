@@ -15,3 +15,5 @@ php composer.phar install
 php bin/daedalus oscommerceinstall
 vagrant up
 ```
+
+Navigate to http://127.0.0.1:8080/ and follow the install instructions.
