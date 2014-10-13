@@ -1,0 +1,10 @@
+daedalus:
+    tasks:
+        oscommerceinstall:
+            description: Install osCommerce
+            commands:
+                gitclone:
+                    command: gitclone
+                    arguments:
+                        src: git@github.com:osCommerce/oscommerce2.git
+                        dest: web/

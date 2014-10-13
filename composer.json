@@ -1,0 +1,19 @@
+{
+    "name": "joshuaestes/oscommerce-vagrant",
+    "description": "Used to setup a vagrant box with oscommerce installed",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joshua Estes",
+            "email": "Joshua@Estes.in"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "daedalus/daedalus": "~1.0@dev"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}

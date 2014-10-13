@@ -1,0 +1,9 @@
+# General
+bin/
+# Composer Stuff
+/vendor/
+/composer.lock
+/composer.phar
+
+# Where osCommerce is installed
+/web/
